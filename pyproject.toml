@@ -1,14 +1,16 @@
 [tool.poetry]
-name = "tmp"
+name = "currency-rates"
 version = "0.1.0"
-description = ""
-authors = ["Shmonov Matvey Vasilievich <meology77@gmail.com>"]
-readme = "README.md"
+description = "Приложение для отслеживания курсов валют ЦБ РФ с возможностью просмотра исторических данных и конвертации валют"
+authors = ["Your Name <your.email@example.com>"]
+package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.12"
-
+python = "^3.11"
+tk = "^0.1.0"
+requests = "^2.31.0"
+xmltodict = "^0.13.0"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
