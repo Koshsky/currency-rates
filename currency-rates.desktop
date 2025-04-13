@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Currency Rates
+Comment=Приложение для отслеживания курсов валют
+Exec=/home/koshsky/tmp/run_silent.sh
+Icon=money-manager-ex
+Terminal=false
+Categories=Office;Finance;
